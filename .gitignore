@@ -1,0 +1,26 @@
+.VirtualBox/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+ISOs/
+Links/
+Music Bought Online/
+Music/
+NTUSER.DAT*
+Pictures/
+Saved\ Games/
+Searches/
+SkyDrive/
+Videos/
+VirtualBox\ VMs/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+.ssh
+.bash_history
+AppData/Local/
+AppData/LocalLow/
+AppData/Roaming
+Contacts/
+_viminfo
