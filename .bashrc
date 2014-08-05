@@ -102,4 +102,4 @@ if [ -f ~/.bash_exports ]; then
     . ~/.bash_exports
 fi
 
-(pgrep -u $USER -f "emacs --daemon" || \emacs --daemon &>/dev/null)
+(pgrep -u $USER -f "emacs --daemon" &>/dev/null || \emacs --daemon &>/dev/null)
