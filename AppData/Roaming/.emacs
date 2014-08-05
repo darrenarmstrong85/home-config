@@ -12,3 +12,5 @@
  )
 
 (setq dired-listing-switches  "-alh") 
+
+(server-start)
