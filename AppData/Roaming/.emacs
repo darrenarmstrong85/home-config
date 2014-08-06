@@ -35,3 +35,4 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (setq ecb-examples-bufferinfo-buffer-name nil)
 
+(define-key c++-mode-map (kbd "C-S-<return>") 'ac-complete-clang)
