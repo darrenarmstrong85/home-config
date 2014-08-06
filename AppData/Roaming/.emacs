@@ -36,3 +36,8 @@
 (setq ecb-examples-bufferinfo-buffer-name nil)
 
 (define-key c++-mode-map (kbd "C-S-<return>") 'ac-complete-clang)
+
+(add-hook 'c-mode-hook
+		  (lambda ()
+			(add-to-list 'ac-sources 'ac-source-c-headers)
+			(add-to-list 'ac-sources 'ac-source-c-header-symbols t)))
