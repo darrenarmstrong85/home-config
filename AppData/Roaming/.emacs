@@ -13,9 +13,23 @@
 
 (setq dired-listing-switches  "-alh") 
 
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+
 (server-start)
 
 ;; automatically show completions for execute-extended-command
 (icomplete-mode 1)
 
-(load "aliases")
+(electric-pair-mode)
+
+(setq-default c-basic-offset 4 c-default-style "linux")
+(setq-default tab-width 4 indent-tabs-mode t)
+(define-key c-mode-base-map (kbd "RET") 'newline-and-indent)
+
+(setq ecb-show-sources-in-directories-buffer 'always)
+(setq ecb-compile-window-height 12)
+
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+
