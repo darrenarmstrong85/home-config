@@ -24,3 +24,4 @@
 (defalias 'acm 'auto-complete-mode)
 (defalias 'vlm 'visual-line-mode)
 (defalias 'glm 'global-linum-mode)
+(defalias 'magit 'magit-status)
