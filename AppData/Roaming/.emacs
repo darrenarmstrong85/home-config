@@ -17,3 +17,5 @@
 
 ;; automatically show completions for execute-extended-command
 (icomplete-mode 1)
+
+(load "aliases")
