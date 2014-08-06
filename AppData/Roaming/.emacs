@@ -41,3 +41,5 @@
 		  (lambda ()
 			(add-to-list 'ac-sources 'ac-source-c-headers)
 			(add-to-list 'ac-sources 'ac-source-c-header-symbols t)))
+
+(add-hook 'find-file-hook 'flymake-find-file-hook)
