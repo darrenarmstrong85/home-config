@@ -48,7 +48,6 @@ ntuser.ini
 .macromedia/
 .mozilla/
 .rnd
-.toprc
 work/
 .emacs.d/eshell/#alias#
 .emacs.d/eshell/.#alias
