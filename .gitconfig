@@ -1,4 +1,5 @@
 [alias]
+	lg = log --pretty=oneline --abbrev-commit --graph --decorate
 	stat = status -s
 	staged = diff --staged
 [user]
