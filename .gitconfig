@@ -1,5 +1,5 @@
 [alias]
-	stat = status
+	stat = status -s
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
