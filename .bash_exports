@@ -1,1 +1,2 @@
 export ALTERNATE_EDITOR=emacs
+export LS_OPTIONS='--color=auto'

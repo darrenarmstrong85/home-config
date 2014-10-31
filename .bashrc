@@ -98,6 +98,8 @@ fi
 #    . /etc/bash_completion
 #fi
 
+eval "`dircolors -b ~/.dircolorsrc`"
+
 if [ -f ~/.bash_exports ]; then
     . ~/.bash_exports
 fi
