@@ -53,3 +53,4 @@ work/
 .emacs.d/eshell/.#alias
 .emacs.d/elpa
 .dmrc
+.viminfo
