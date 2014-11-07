@@ -5,6 +5,8 @@
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
+[core]
+	pager = less -rF
 [push]
 	default = simple
 [pretty]
