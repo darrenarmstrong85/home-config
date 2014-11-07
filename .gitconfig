@@ -6,3 +6,5 @@
 	name = Darren Armstrong
 [push]
 	default = simple
+[pretty]
+	myshort = %h %an %ai %Cblue %d %Cgreen %s %Creset
