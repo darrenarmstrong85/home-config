@@ -1,7 +1,7 @@
 [alias]
 	stat = status -s
 	staged = diff --staged
-	lg = log --graph --decorate --pretty=myshort
+	lg = log --graph --pretty=myshort
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
