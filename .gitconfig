@@ -10,4 +10,4 @@
 [push]
 	default = simple
 [pretty]
-	myshort = %h %an %ai %Cblue %d %Cgreen %s %Creset
+	myshort = "%h %an %Cblue%d%Creset %Cgreen%s %Creset"
