@@ -10,5 +10,7 @@
 	pager = less -rF
 [push]
 	default = simple
+[merge]
+	renamelimit = 10240
 [pretty]
 	myshort = "%h %an %Cblue%d%Creset %Cgreen%s %Creset"
