@@ -1,3 +1,4 @@
+export PATH="$HOME/q/l32:$PATH"
 export ALTERNATE_EDITOR=emacs
 export EDITOR="emacsclient -t"
 export VISUAL="emacsclient -t"
