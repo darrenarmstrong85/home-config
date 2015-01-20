@@ -5,7 +5,7 @@
 	stat = status -s
 	staged = diff --staged
 	lg = log --graph --pretty=myshort
-	br = branch -rva
+	br = branch -v
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
