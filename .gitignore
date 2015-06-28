@@ -25,6 +25,7 @@
 .q_history
 .rnd
 .ssh
+.sudo_as_admin_successful
 .vboxclient-clipboard.pid
 .vboxclient-display.pid
 .vboxclient-draganddrop.pid
