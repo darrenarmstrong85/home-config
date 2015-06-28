@@ -50,6 +50,7 @@ SkyDrive/
 Videos/
 VirtualBox\ VMs/
 _viminfo
+bin/
 examples.desktop
 ntuser.dat.LOG1
 ntuser.dat.LOG2
