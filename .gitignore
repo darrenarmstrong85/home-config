@@ -52,6 +52,7 @@ VirtualBox\ VMs/
 _viminfo
 bin/
 examples.desktop
+kx/
 ntuser.dat.LOG1
 ntuser.dat.LOG2
 ntuser.ini
