@@ -1,6 +1,7 @@
 .ICEauthority
 .VirtualBox/
 .Xauthority
+.aptitude/
 .bash_history
 .bash_logout
 .cache/
