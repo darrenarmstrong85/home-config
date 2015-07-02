@@ -22,6 +22,8 @@
 
 (server-start)
 
+(setq backup-directory-alist `(("." . "~/.saves")))
+
 ;; automatically show completions for execute-extended-command
 (icomplete-mode 1)
 
