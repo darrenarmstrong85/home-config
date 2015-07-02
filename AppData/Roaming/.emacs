@@ -31,7 +31,7 @@
 
 (setq-default c-basic-offset 4 c-default-style "linux")
 (setq-default tab-width 4 indent-tabs-mode t)
-(define-key c-mode-base-map (kbd "RET") 'newline-and-indent)
+;; (define-key c-mode-base-map (kbd "RET") 'newline-and-indent)
 
 (setq ecb-show-sources-in-directories-buffer 'always)
 (setq ecb-compile-window-height 12)
@@ -39,7 +39,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (setq ecb-examples-bufferinfo-buffer-name nil)
 
-(define-key c++-mode-map (kbd "C-S-<return>") 'ac-complete-clang)
+;; (define-key c++-mode-map (kbd "C-S-<return>") 'ac-complete-clang)
 
 (add-hook 'c-mode-hook
 		  (lambda ()
