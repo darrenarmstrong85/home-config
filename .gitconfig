@@ -6,6 +6,7 @@
 	staged = diff --staged
 	lg = log --graph --pretty=myshort
 	br = branch -v
+    testpull = "!f() { base=$(git merge-base HEAD $1); shift; git diff $base..HEAD $@; }; f"
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
