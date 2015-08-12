@@ -15,5 +15,6 @@
 	default = simple
 [merge]
 	renamelimit = 10240
+    log = true
 [pretty]
 	myshort = "%h %an %Cblue%d%Creset %Cgreen%s %Creset"
