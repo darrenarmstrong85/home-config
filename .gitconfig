@@ -5,7 +5,7 @@
 	stat = status -s
 	staged = diff --staged
 	lg = log --graph --pretty=myshort
-	br = branch -v
+	br = branch -vv
     testpull = "!f() { base=$(git merge-base HEAD $1); shift; git diff $base..HEAD $@; }; f"
 [user]
 	email = darren.armstrong85@gmail.com
