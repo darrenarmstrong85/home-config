@@ -7,6 +7,7 @@
 	lg = log --graph --pretty=myshort
 	br = branch -vv
     testpull = "!f() { base=$(git merge-base HEAD $1); shift; git diff $base..HEAD $@; }; f"
+	stashworking = "!f() { git stash store $(git stash create) $@; }; f"
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
