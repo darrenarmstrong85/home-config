@@ -11,3 +11,8 @@ startq ()
 {
 	qq $@
 }
+
+function printlastarg
+{
+	awk '{print $NF}' $@
+}
