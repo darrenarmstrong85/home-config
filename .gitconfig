@@ -1,23 +1,24 @@
 [log]
-	abbrevCommit = true
+    abbrevCommit = true
 [alias]
-	unstage = "reset HEAD"
-	stat = status -sb
-	staged = diff --staged
-	lg = log --graph --pretty=myshort
-	br = branch -vv
+    unstage = "reset HEAD"
+    stat = status -sb
+    staged = diff --staged
+    lg = log --graph --pretty=myshort
+    br = branch -vv
     testpull = "!f() { base=$(git merge-base HEAD $1); shift; git diff $base..HEAD $@; }; f"
-	stashworking = "!f() { git stash store $(git stash create) $@; }; f"
-	comend = 'commit --amend --no-edit'
+    stashworking = "!f() { git stash store $(git stash create) $@; }; f"
+    comend = 'commit --amend --no-edit'
+    forcepush = 'push --force-with-lease'
 [user]
-	email = darren.armstrong85@gmail.com
-	name = Darren Armstrong
+    email = darren.armstrong85@gmail.com
+    name = Darren Armstrong
 [core]
-	pager = less -rF
+    pager = less -rF
 [push]
-	default = simple
+    default = simple
 [merge]
-	renamelimit = 10240
+    renamelimit = 10240
     log = true
 [pretty]
-	myshort = "%h %an %Cblue%d%Creset %Cgreen%s %Creset"
+    myshort = "%h %an %Cblue%d%Creset %Cgreen%s %Creset"
