@@ -2,7 +2,7 @@
 	abbrevCommit = true
 [alias]
 	unstage = "reset HEAD"
-	stat = status -s
+	stat = status -sb
 	staged = diff --staged
 	lg = log --graph --pretty=myshort
 	br = branch -vv
