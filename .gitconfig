@@ -8,6 +8,7 @@
 	br = branch -vv
     testpull = "!f() { base=$(git merge-base HEAD $1); shift; git diff $base..HEAD $@; }; f"
 	stashworking = "!f() { git stash store $(git stash create) $@; }; f"
+	comend = 'commit --amend --no-edit'
 [user]
 	email = darren.armstrong85@gmail.com
 	name = Darren Armstrong
