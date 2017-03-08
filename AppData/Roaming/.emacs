@@ -5,8 +5,8 @@
  ;; If there is more than one, they won't work right.
  '(ecb-options-version "2.40")
  '(nxhtml-load t)
- '(require-final-newline t)
- )
+ '(q-indent-step 3)
+ '(require-final-newline t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -47,3 +47,6 @@
 			(add-to-list 'ac-sources 'ac-source-c-header-symbols t)))
 
 (add-hook 'find-file-hook 'flymake-find-file-hook)
+
+(autoload 'q-mode "q-mode")
+(add-to-list 'auto-mode-alist '("\\.[kq]\\'" . q-mode))
