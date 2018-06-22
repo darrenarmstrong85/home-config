@@ -1,5 +1,5 @@
 export ALTERNATE_EDITOR=emacs
 export EDITOR="emacsclient -t"
 export VISUAL="emacsclient -t"
-export QPATH="$HOME/src"
+export QPATH="$HOME/qlibs"
 export PATH="$HOME/bin:$PATH"

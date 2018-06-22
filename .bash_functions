@@ -7,9 +7,8 @@ qq ()
 	QHOME=$QHOME rlwrap -c -s 99999 $loc $@ -c $LINES $COLUMNS
 }
 
-startq ()
-{
-	qq $@
+function qspec() {
+    qq $QPATH/src/qspec/app/spec.q $@
 }
 
 function printlastarg
