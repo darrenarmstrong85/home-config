@@ -16,6 +16,8 @@
 .emacs.d/eshell/history
 .emacs.d/eshell/lastdir
 .gconf/
+.gnome/
+.gnupg/
 .lesshst
 .local/
 .macromedia/
@@ -24,6 +26,7 @@
 .profile
 .q_history
 .rnd
+.saves/
 .ssh
 .sudo_as_admin_successful
 .vboxclient-clipboard.pid
@@ -55,10 +58,12 @@ VirtualBox\ VMs/
 _viminfo
 bin/
 examples.desktop
+git/
 kx/
 ntuser.dat.LOG1
 ntuser.dat.LOG2
 ntuser.ini
 q/
+qlibs/
 src/
 work/
