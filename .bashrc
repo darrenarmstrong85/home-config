@@ -107,3 +107,6 @@ if [ -f ~/.bash_functions ]; then
 fi
 
 (pgrep -u $USER -f "emacs --daemon" &>/dev/null || \emacs --daemon &>/dev/null)
+
+export SCREENDIR=$HOME/.screen
+[ -d "$SCREENDIR" ] || mkdir -pv -m 700 $SCREENDIR
