@@ -18,9 +18,12 @@
 .gconf/
 .gnome/
 .gnupg/
+.hushlogin
+.landscape/
 .lesshst
 .local/
 .macromedia/
+.motd_shown
 .mozilla/
 .pki/
 .profile
