@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -5,6 +12,7 @@
  ;; If there is more than one, they won't work right.
  '(ecb-options-version "2.40")
  '(nxhtml-load t)
+ '(package-selected-packages (quote (magit transient dash)))
  '(q-indent-step 3)
  '(require-final-newline t))
 (custom-set-faces
@@ -17,10 +25,14 @@
 (setq dired-listing-switches  "-alh") 
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+    					 ("melpa-stable" . "http://stable.melpa.org/packages/")
+						 ;;("marmalade" . "http://marmalade-repo.org/packages/")
+	                     ;;("melpa" . "http://melpa.milkbox.net/packages/")
+						 ))
 
-(server-start)
+(package-initialize)						 
+
+(Server-start)
 
 (setq backup-directory-alist `(("." . "~/.saves")))
 
@@ -45,3 +57,6 @@
 		  (lambda ()
 			(add-to-list 'ac-sources 'ac-source-c-headers)
 			(add-to-list 'ac-sources 'ac-source-c-header-symbols t)))
+
+(setq c-default-style "linux")
+

@@ -9,6 +9,7 @@
 .config/
 .dbus/
 .dmrc
+.emacs.d/network-security.data
 .emacs.d/auto-save-list/
 .emacs.d/elpa
 .emacs.d/eshell/#alias#
